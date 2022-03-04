@@ -15,7 +15,13 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+		return this.type === "Space Debris"
+		// let satellites =
+		// if (this.type === 'Space Debris') {	
+		// return true;
+		// }else {
+		// 	return false;
+		// }
    }
 
 }

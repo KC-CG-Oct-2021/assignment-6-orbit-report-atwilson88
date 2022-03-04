@@ -5,6 +5,7 @@
 
 .warning {
 	background-color: #da8a8a;
+	
 }
 
 table {
@@ -14,6 +15,10 @@ table {
  margin: 12px 0;
  min-width: 300px;
  background: #dad8d8;
+}
+
+tr:nth-child(even) {
+	background-color: lightblue;
 }
 
 .header-row {

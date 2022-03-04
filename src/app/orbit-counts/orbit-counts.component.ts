@@ -7,12 +7,13 @@ import { Satellite } from '../satellite';
   styleUrls: ['./orbit-counts.component.css']
 })
 export class OrbitCountsComponent implements OnInit {
-
+	types = ['Communication', 'Probe', 'Space Station', 'Telescope', 'Space Debris', 'Positioning'];
 	@Input() satellites: Satellite[];
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
   countByType(type: string): number {
